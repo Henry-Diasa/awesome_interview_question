@@ -7,7 +7,16 @@
 - 周五下午把题目发到群里，周末需要开会议每个人来讲解自己找到的题目。
 - 分享结束后大家对相应的题目来进行打星评分（5星制），并在相应的题目上标注。
 
-# 将要实现的
+# roadMap
 
 - [ ] promise并发控制
 - [ ] 断点续传
+
+# 需要学习的
+
+- [ ] 弱网检测
+- [ ] service worker (workbox/workbox-webpack-plugin)
+- [ ] indexDB localforage
+- [ ] 前端内存监测 (heapdump)
+- [ ] Graphql 只能是post 如何缓存
+- [ ] JWT 
