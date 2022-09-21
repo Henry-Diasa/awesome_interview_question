@@ -20,3 +20,4 @@
 - [ ] 前端内存监测 (heapdump)
 - [ ] Graphql 只能是post 如何缓存
 - [ ] JWT 
+- [ ] LRU Cache
