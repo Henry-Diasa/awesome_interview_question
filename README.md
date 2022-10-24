@@ -25,3 +25,9 @@
 - [ ] JWT
 
 - [ ] LRU Cache
+- [ ] weakRef ? bigInt (超出数字范围 2^53 - 1 精度问题)
+- [ ] 判断整数 （Number.isInteger %1） 平方 2 \*\* 10 Math.pow(2,10)
+- [ ] grid
+- [ ] minimist
+
+- 4
