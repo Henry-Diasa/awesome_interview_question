@@ -44,13 +44,11 @@
 
 #### JS
 
-- [ ] [weakRef](/src/basic/js/weakRef.md)
-- [ ] [bigInt](/src/basic/js/bigInt.md) ()
-- [ ] [判断整数](/src/basic/js/isInteger.md)
-- [ ] [数的平方](/src/basic/js/pow.md)
+- [x] [weakRef](/src/basic/js/weakRef.md)
+- [x] [bigInt](/src/basic/js/bigInt.md) ()
+- [x] [判断整数](/src/basic/js/isInteger.md)
+- [x] [数的平方](/src/basic/js/pow.md)
 
 #### CSS
 
 - [ ] grid
-
-- 4
