@@ -16,18 +16,41 @@
 
 # 需要学习的
 
+### 性能
+
 - [x] [弱网检测](/src/performance/weakNet.md)
+- [x] [高并发控制](/src/performance/rateLimit.md)
+
+### 存储
+
 - [x] [service worker](/src/store/serviceWorker.md)
 - [x] [indexDB](/src//store/indexDB.md)
+
+### Node 和工程化
+
 - [x] [前端内存监测](/src/node/leak.md)
-- [x] [高并发控制](/src/performance/rateLimit.md)
-- [ ] Graphql 只能是 post 如何缓存
-- [ ] JWT
+- [x] [Graphql](/src/node/graphql.md)
+- [ ] minimist
+
+### Web
+
+- [x] [JWT](/src/web/jwt.md)
+
+### 算法
 
 - [ ] LRU Cache
-- [ ] weakRef ? bigInt (超出数字范围 2^53 - 1 精度问题)
-- [ ] 判断整数 （Number.isInteger %1） 平方 2 \*\* 10 Math.pow(2,10)
+
+### 基础
+
+#### JS
+
+- [ ] [weakRef](/src/basic/js/weakRef.md)
+- [ ] [bigInt](/src/basic/js/bigInt.md) ()
+- [ ] [判断整数](/src/basic/js/isInteger.md)
+- [ ] [数的平方](/src/basic/js/pow.md)
+
+#### CSS
+
 - [ ] grid
-- [ ] minimist
 
 - 4
