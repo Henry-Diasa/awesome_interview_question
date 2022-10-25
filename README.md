@@ -16,7 +16,7 @@
 
 # 需要学习的
 
-- [ ] 弱网检测
+- [x] [弱网检测](/src/performance/weakNet.md)
 - [ ] service worker (workbox/workbox-webpack-plugin)
 - [ ] indexDB localforage
 - [ ] 前端内存监测 (heapdump)
