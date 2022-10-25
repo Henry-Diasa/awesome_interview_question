@@ -17,10 +17,10 @@
 # 需要学习的
 
 - [x] [弱网检测](/src/performance/weakNet.md)
-- [ ] service worker (workbox/workbox-webpack-plugin)
-- [ ] indexDB localforage
-- [ ] 前端内存监测 (heapdump)
-- [ ] 高并发控制（Rate Limit Redis）
+- [x] [service worker](/src/store/serviceWorker.md)
+- [x] [indexDB](/src//store/indexDB.md)
+- [x] [前端内存监测](/src/node/leak.md)
+- [x] [高并发控制](/src/performance/rateLimit.md)
 - [ ] Graphql 只能是 post 如何缓存
 - [ ] JWT
 
