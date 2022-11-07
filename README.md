@@ -36,6 +36,13 @@
 ### 算法
 
 - [ ] [LRU Cache](/src/alg/LRU.md)
+- [x] [189. 轮转数组](https://leetcode.cn/problems/rotate-array/)
+- [x] [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
+- [ ] [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
+- [ ] [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
+- [ ] [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
+- [ ] [704. 二分查找](https://leetcode.cn/problems/binary-search/)
+- [ ] [链表实现队列]
 
 ### 框架
 
