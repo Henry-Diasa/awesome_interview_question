@@ -55,7 +55,7 @@
 #### JS
 
 - [x] [weakRef](/src/basic/js/weakRef.md)
-- [x] [bigInt](/src/basic/js/bigInt.md) ()
+- [x] [bigInt](/src/basic/js/bigInt.md)
 - [x] [判断整数](/src/basic/js/isInteger.md)
 - [x] [数的平方](/src/basic/js/pow.md)
 - [ ] [断点续传](/src/basic/js/bigFileTrans.md)
