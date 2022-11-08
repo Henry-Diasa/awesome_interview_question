@@ -39,8 +39,16 @@
 - [x] [189. 轮转数组](https://leetcode.cn/problems/rotate-array/)
 - [x] [20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/)
 - [x] [232. 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)
-- [ ] [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
-- [ ] [704. 二分查找](https://leetcode.cn/problems/binary-search/)
+- [x] [206. 反转链表](https://leetcode.cn/problems/reverse-linked-list/)
+- [x] [704. 二分查找](https://leetcode.cn/problems/binary-search/)
+- [x] [230. 二叉搜索树中第 K 小的元素](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/)
+- [x] [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/)
+- [ ] [283. 移动零](https://leetcode.cn/problems/move-zeroes/)
+- [ ] [1446. 连续字符](https://leetcode.cn/problems/consecutive-characters/)
+- [ ] [快速排序]
+- [ ] [回文]
+- [ ] [前缀树]
+- [ ] [数字千分位]
 - [ ] [链表实现队列]
 
 ### 框架

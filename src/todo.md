@@ -173,7 +173,7 @@
     - Approving + CI Success 才能进行合并 ❎
 * Code Review
   - 两个人合并
-* Preview/Review App ❎
+* Preview/Review App
   - environment
   - Docker/Label/docker-compose/service ❎
     - k8s/Deployment
