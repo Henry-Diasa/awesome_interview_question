@@ -187,3 +187,48 @@
 * 如何回滚
 
 - 13
+
++ hooks
++ electron
++ leveldb
+
++ react hooks -> vue3 (electron)
+  + 3D
+  + 570ms -> 200ms 延时？
+    + React.memo
+    + React 一次状态改变
+  + C++ -> JS
+  + napi / C++ Addon ❎
+    + wasm
+    + https://nodejs.org/api/n-api.html
++ memo
+  + useCallback
+  + useMemo
+  + React.memo -> ❎
+    + shouldComponentUpdate
++ componentDidMount
+  + useEffect(, 【】)
++ react hooks
+  + useSelector -> redux
+  + useHistory -> react-router
++ redux
+  + Action  -> {}
+  + Reducer -> o = { a: 3 }
+  + Store
++ 如何发送请求
+  + React Query ❎
+  + swr
+  + redux -> dispath({ }) ❎
+    + redux-thunk -> https://github.com/reduxjs/redux-thunk
+    + redux-saga
+  + redux-toolkit ❎ 
++ leveldb (localstorage)
+  + k/v
+  + node.js
++ node 读取图片文件
+  + fs
++ bytenote
+  + 二进制加密
++ node-ffi
+  + C++
+
