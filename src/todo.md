@@ -186,7 +186,7 @@
   - only_files
 * 如何回滚
 
-- 13
+### 13
 
 + hooks
 + electron
@@ -231,4 +231,51 @@
   + 二进制加密
 + node-ffi
   + C++
+
+### 14
+1. WebSocket
+  1. 轮询
+  1. 定时器/短轮询
+  1. 和短轮询有什么区别
+    1. 性能 (DOM/Network !!!)
+      1. 连接数 (http2/connection-keep-alive 除外)
+      1. Payload
+    1. 及时性
+    1. 业务逻辑复杂
+  1. Websocket 报文格式 ❎
+    1. Frame (不了解也可以，不过大厂会问)
+  1. HTTP2 Server Push (不了解也可以，不过大厂会问)
+1. react hooks
+  1. useReducer 
+  1. ahooks
+    1. useThrottle
+    1. useDebounce
+    1. useRequest -> React Query
+1. useInterval/useCountDown ❎
+  1. code
+1. 短信验证
+  1. 流程 -> 注册
+  1. Server 后端 ❎
+    1. phone
+  1. 坑
+    1. 短信模板
+1. Gitlab CI ❎
+  1. exitcode
+  1. lint/build
+  1. health check
+1. vDOM ❎
+  1. patch
+  1. diff
+    1. vnode 
+    1. 时间复杂度
+      1. On3 -> On
+    1. tag
+      1. ul>li*3 -> li完全相同
+      1. ol>li*3
+    1. key 
+1. 字节
+  1. 小程序视觉层和逻辑层是怎么连接的
+  1. 水波纹效果 (地震了)
+
+
 
