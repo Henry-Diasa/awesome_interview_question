@@ -278,4 +278,42 @@
   1. 水波纹效果 (地震了)
 
 
+### 16
 
++ tree shaking
+  + ESM
+  + commonjs -> esm ✅
+    + vite
+  + json tree shaking
+    + { a: 3, b: 4 }
++ http
+  + 304
+  + 206
+  + 204
+  + 201
+  + 401
+  + 405
+  + 429 -> Rate Limit ❎
++ http2
+  + header
+  + 多路复用
+  + Frame/Stream/Message
+  + Server Push (index.html) ❎
+    + ws的区别
++ ws
++ koa / node->stream
+  + cors
+  + body-parser ❎
+    + Content-Type
+  + router
+    + /api/users/:userId -> 正则
+    + path-to-regexp -> 前缀树
++ webpack 体积优化
+  + webpack-bundle-analyzer
+  + terser
+  + gzip/brotli -> not webpack
++ vue3
+  + Proxy/define
++ ES6 Proxy
+  + 代理
+  + 不可变数据 -> immer.js
