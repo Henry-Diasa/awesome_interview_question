@@ -317,3 +317,67 @@
 + ES6 Proxy
   + 代理
   + 不可变数据 -> immer.js
+
+
+### 17 
+
++ css 左侧固定右侧自适应
++ js
+  + Array.isArray
+  + {}.toString.call ❎
+  + Number
+    + .isNaN
+    + .isInteger
++ 0.1 + 0.2 -> https://devtool.tech/double-type ❎
++ Array
+  + indexOf/includes
+  + flat
+  + 类数组->数组
+    + Array.from
+  + 数组去重
+    + Set
+    + Weakset
+  + 【1, 1, ...1】
+    + new Array(100).fill(1)
+    + Array.from({ length: 100 }, x => 1)
+  + TypedArray ❎
++ 可选链操作符
++ Promise.allSettled() ❎
++ cookie 字段 
+  + httpOnly -> ❎
+  + sameSite
++ 如何删除 cookie ❎
++ webpack
+  + css-loader
+  + babel-loader
+  + url-loader ✅
+    + 减少 http 请求
+  + asset 
+  + tree shaking -> 
+  + code spliting
+    + import()
+    + splitChunksPlugin
++ 第三方库
+  + dayjs
++ 首屏优化
+  + performance API
+  + gzip
+  + http cache ❎
++ nodejs api
+  + fs
+    + 查看某个文件的修改时间
+    + fs stat / POSIX 
+  + path
+  + http
+  + buffer -> UInt8Array
+  + stream
++ css 如何隐藏页面中的元素
+  + scale: 0
++ http (强缓存) ❎
+  + 如何设置强缓存
+  + 404
+  + 401
+  + 301
+  + 201
+  + 307 (临时重定向)
+  + 400
