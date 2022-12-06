@@ -381,3 +381,48 @@
   + 201
   + 307 (临时重定向)
   + 400
+
+### 19 
+
+1. useEffect
+  1. hooks 陷阱
+  1. useEffect cleanup
+  1. 请求时序
+  1. 如何取消请求
+    1. xhr.abort
+    1. AbortController
+    1. axios -> CancelToken
+      1. xhr.abort
+      1. https/http
+1. React 点击按钮自增三次
+  1. setCount -> 3
+1. useMemo/useCallback
+1. React.memo
+  1. 如何自定义比较函数
+1. 前端工程化实践
+  1. prettier
+  1. eslint
+    1. CRA -> eslint-loader
+  1. githooks
+    1. .git/hooks
+    1. precommit
+    1. git commit --no--verify
+  1. commitlint
+  1. CICD -> jetbrain -> team-city
+    1. 如何自动部署
+1. webpack/rollup -> npm package
+  1. 对比
+  1. webpack 的 runtime code
+  1. rollup 的 runtime code
+  1. vite/rollup
+  1. 为啥要配置 hash ❎
+    1. 方便配置长期缓存 
+  1. contenthash/chunkhash !!!
+1. Docker
+  1. node build
+  1. 数据库 -> oracal/mysql
+    1. left join / right join / inner join
+  1. CICD
+1. Nginx
+  1. try_files -> history API
+  1. server_name
