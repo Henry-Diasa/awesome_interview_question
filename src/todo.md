@@ -426,3 +426,39 @@
 1. Nginx
   1. try_files -> history API
   1. server_name
+
+### 20 
+1. graphql
+  1. POST 
+    1. 模板字符串
+    1. gql
+  1. GET 
+  1. POST 缓存优化 ❎
+    1. hash string
+  1. N+1 Query
+  1. /graphql 调试 ❎
+    1. /graphql?UserFriends
+  1. apollo-server/apollo-client
+    1. graphql-codegen
+1. 图片懒加载
+  1. 虚拟滚动 -> elementui
+1. 小图增加阿里图片压缩后缀
+  1. 后缀/转格式/宽高
+  1. webp/avif/jpegxl
+  1. Image -> width/height/quality/webp
+    1. picture ❎
+1. 文件过大出现卡顿
+  1. 虚拟滚动
+  1. pdf.js
+    1. 标注
+    1. 缩略图
+1. 切片上传
+  1. blob.slice
+  1. 断点续传
+1. 网页截屏
+  1. canvas
+  1. processon
+  1. 性能问题
+    1. drag
+1. 发送弹幕
+  1. animation
