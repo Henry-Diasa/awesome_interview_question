@@ -462,3 +462,59 @@
     1. drag
 1. 发送弹幕
   1. animation
+
+
+### 23 
++ UMI 的好处
+    + 约定式路由
+    + ncc -> vercel
+        + webpack
++ nest.js bff
+    + DDD
+    + 聚合/过滤/
+    + 数据库
+        + mongodb
+        + redis
++ 安全问题
+    + WAF 防火墙
+        + https://www.aliyun.com/product/waf
+    + http only 
+    + 点击劫持
+    + 反爬
+        + UA
+        + Rate Limit
+        + 混淆
++ 性能优化
+    + 监控
+    + 优化
+        + 加载
+            + 网络
+            + 首屏
+        + 交互
+            + 卡顿
+        + 构建
+            + 提速
+                + esbuild
+                + cache
+                + 多进程
+                + include/exclude
+            + 体积
+                + gzip/brotli
+    + 分析
+    + https://developers.google.com/web/fundamentals
++ 自动化测试
+    + E2E
+        + pptr/jest/冒烟测试
+    + CI
+        + when -> 选定分支
+    + 监控
+        + 监控平台
+        + 监控异常
+            + onerror
+            + unhandlereject
+            + react/vue -> 
+            + network
+                + API -> axios
+    + gif
+    + sendBeacon
+    + 如何检测弱网
