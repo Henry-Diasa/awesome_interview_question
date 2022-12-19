@@ -518,3 +518,42 @@
     + gif
     + sendBeacon
     + 如何检测弱网
+
+### 27 
++ 数据结构
+    + 堆
+        + 二叉堆
+    + 二叉搜索树
+    + leetcode
++ 渲染原理
+    + 关键渲染路径 CRP
++ 重排重绘
++ 图层
+    + will change
+    + 合成层
++ z-index?
+    + z-index
+    + Stacking Context
+    + https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_context_example_1#stacking_context_%E5%B1%82%E5%8F%A0%E4%B8%8A%E4%B8%8B%E6%96%87_%E4%BE%8B%E5%AD%90_1
++ React
+    + Redux
+    + React-Router
+    + Axios/SWR/
+    + hooks
+        + useEffect/useLayoutEffect
+            + ssr
+        + capture value ❎
+            + https://github.com/shfshanyue/Daily-Question
++ http
+    + access-control-allow-origin
+    + content-length ❎
+        + 响应体
+        + hello
+    + content-type ❎
+        + MIME
++ 垃圾回收
+    + v8
+        + 新生代/老生代
+        + 标记清除
+        + 标记整理
+        + 全停顿 ->
