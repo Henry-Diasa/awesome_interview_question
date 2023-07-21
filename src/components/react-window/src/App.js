@@ -1,3 +1,4 @@
+import Dialog from './Dialog'
 import  {FixedSizeList, VariableSizeList}  from './react-window'
 import './fixed-size-list.css';
 
@@ -19,15 +20,15 @@ function App() {
     // </FixedSizeList>
 
     // 非定高
-    return <VariableSizeList
-        className='List'
-        height={200}
-        width={200}
-        itemSize={getItemSize}
-        itemCount={1000}
-        >
-        {Row}
-    </VariableSizeList>
+    // return <VariableSizeList
+    //     className='List'
+    //     height={200}
+    //     width={200}
+    //     itemSize={getItemSize}
+    //     itemCount={1000}
+    //     >
+    //     {Row}
+    // </VariableSizeList>
 }
 
 export default App
