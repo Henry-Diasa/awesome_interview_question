@@ -4,6 +4,8 @@
 ### 一些面试文章
 [面试宝典](https://gxaedu.yuque.com/yi2lv1/ymweyp/bs9ruu)
 
+### [进阶路线](/src/advanced.md)
+
 
 ### 性能
 
