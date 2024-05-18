@@ -180,6 +180,36 @@ class SandboxGlobalProxy {
     }
   }
 
+  function pLimit(fn, times) {  
+      let fns = []    
+      function executeFns() {        
+        if (fns.length && times) { 
+           const f = fns.shift() ;           
+           times--;            
+           f().finally(() => {                
+            times++;                
+            executeFns()            
+        })        
+    }    }    
+    function inner(...args) {        
+        fns.push(() => fn.apply(this, args));        
+        executeFns()    
+    }
+    return inner
+    }; 
+           
+    let countLimit = pLimit(function (times) { 
+        console.log('test', times);   
+        return new Promise((resolve) => setTimeout(resolve, times * 1000))
+    }, 2);
+    countLimit(2);
+    countLimit(3);
+    countLimit(2);
+    countLimit(3);
+    countLimit(2);
+    countLimit(1)
+
+
 
   
   
