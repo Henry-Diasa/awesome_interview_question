@@ -189,4 +189,8 @@ source-map 的还原流程：
 - 前端录屏
 rrweb
 
+### 基于SSE的即时更新方案
+> EventSource/fetch
+
+https://juejin.cn/post/7295750874181894195#heading-4
 
