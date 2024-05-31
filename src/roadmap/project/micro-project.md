@@ -5,4 +5,8 @@
 - [web-components方案](https://github.com/ziyi2/micro-framework/tree/demo/web-components)
 
 ### 微前端的原理解析
+- iframe隔离
+- iframe + Proxy隔离
+- 快照隔离
+- CSS隔离
 ### 微前端的框架解析
